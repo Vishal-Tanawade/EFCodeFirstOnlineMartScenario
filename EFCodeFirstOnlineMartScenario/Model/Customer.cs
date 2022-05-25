@@ -12,15 +12,23 @@ namespace EFCodeFirstOnlineMartScenario.Model
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int CustomerId { get; set; }
+        
+        
         [Required]
         [StringLength(30, MinimumLength = 9)]
         [RegularExpression("^[A-Z]{4,10} [A-Z]{4,10}$")] // ABHISHEK SHARMA
         public string CustomerName { get; set; }
+
+
         [Required]
         [EmailAddress]
         public string CustomerEmail { get; set; }
+
+
         [Required]
         public string CustomerContact { get; set; }
+
+
         public virtual ICollection<Cart> Carts { get; set; }
     }
 }
