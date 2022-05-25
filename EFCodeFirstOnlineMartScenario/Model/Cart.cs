@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EFCodeFirstOnlineMartScenario
+namespace EFCodeFirstOnlineMartScenario.Model
 {
-    internal class Program
+    internal class Cart
     {
-        static void Main(string[] args)
-        {
 
-        }
     }
 }
