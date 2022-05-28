@@ -1,4 +1,5 @@
-EFCodeFirstOnlineMartScenario 26-April-2022 Console Application(.net Framework)
+# EFCodeFirstOnlineMartScenario 26-April-2022 
+### Console Application(.net Framework)
 - Code first approach used.
 Steps:
 1) Create Project Console Application(.net Framework)
